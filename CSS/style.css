@@ -1,0 +1,175 @@
+header{
+	text-align: center;
+	height:90px;
+}
+header button{
+	display: block;
+	float: left;
+	margin-top:-20px;
+	padding:10px;
+	background-color: #C7CCC6;
+	border-radius: 10px;
+}
+section{
+	min-height: 500px;
+}
+footer{
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1em;
+	background-color: #7F8070;
+	text-align: center;
+	height:50px;
+}
+body{
+	background-color: #C7CCC6;
+}
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+section .synopsis{
+	border:1px solid black;
+	border-radius: 5px;
+	height:100px;
+	padding:1em;
+	margin:1em;
+	max-width:175px;
+	text-align: center;
+}
+section#indexSec .gallery{
+	border:1px solid black;
+	border-radius: 5px;
+	height:100px;
+	padding:1em;
+	margin:1em;
+	text-align: center;
+}
+section a{
+	color:black;
+	border:2px solid #5F6D60;
+	background-color: #77AD9F;
+	border-radius: 3px;
+	padding:3px;
+	margin:2px;
+	text-decoration: none;
+}
+section a:hover{
+	border:2px dotted #5F6D60;
+}
+header .nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+}
+header hr{
+	margin:0px;
+}
+.nav a{
+	text-decoration: none;
+	border:none;
+	border-right:1px solid grey;
+	border-left:1px solid grey;
+	padding:5px;
+	margin:0px;
+	padding-left:10%;
+	padding-right:10%;
+	color:#5F6D60;
+}
+.nav a:hover{
+	background-color: #a9aa99;
+}
+/* Gallery */
+#gallery{
+	margin-top:30px;
+	width:80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#gallery img{
+	height:200px;
+	width:auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+#gallery a{
+	margin:5px;
+}
+.galContainer {
+	position: relative;
+}
+.galMiddle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+.galContainer:hover .galleryImg {
+	opacity: 0.3;
+}
+.galContainer:hover .galMiddle {
+	opacity: 1;
+}
+.galMiddle h3 {
+	background-color: #77AD9F;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+
+/* Plant Pages */
+.plantSection{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#sideGallery{
+	width:840px;
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#plantDescription{
+	width:500px;
+	height:auto;
+	align-self: flex-start;
+}
+#plantDescription h3{
+	text-align: center;
+}
+#sideGallery, #plantDescription{
+	border:2px solid #463D2E;
+	border-radius: 4px;
+	padding:5px;
+}
+#sideGallery img{
+	width:400px;
+	height:auto;
+	margin:5px;
+}
+#sideGallery a{
+	background:none;
+	border:none;
+}
+#plantDetails li{
+	padding:5px;
+}
+#navBttns{
+	display:block;
+	float: right;
+	margin-top:15px;
+}
