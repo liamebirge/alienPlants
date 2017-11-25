@@ -1,5 +1,5 @@
 body{
-	min-width:350px;
+	min-width:450px;
 }
 header{
 	text-align: center;
@@ -96,6 +96,7 @@ header hr{
 	margin:0px;
 }
 .nav a{
+	min-width: 75px;
 	text-decoration: none;
 	border:none;
 	border-right:1px solid grey;
@@ -150,6 +151,22 @@ header hr{
 	color: white;
 	font-size: 16px;
 	padding: 16px 32px;
+}
+
+/* About */
+#about, #usefulLinks{
+	border:1px solid black;
+	border-radius: 5px;
+	margin-top:10px;
+	padding:10px;
+	margin-bottom:5px;
+}
+#usefulLinks h3{
+	text-align: center;
+	margin:5px;
+}
+big{
+	font-size: 30px;
 }
 
 /* Plant Pages */
