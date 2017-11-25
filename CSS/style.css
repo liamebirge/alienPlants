@@ -24,7 +24,7 @@ footer{
 	padding: 1em;
 	background-color: #7F8070;
 	text-align: center;
-	height:50px;
+	height:40px;
 }
 body{
 	background-color: #C7CCC6;
@@ -35,10 +35,10 @@ section{
 	flex-direction: column;
 	align-items: center;
 }
-section .synopsis{
+section#indexSec .synopsis{
 	border:1px solid black;
 	border-radius: 5px;
-	height:100px;
+	height:auto;
 	padding:1em;
 	margin:1em;
 	max-width:175px;
@@ -47,10 +47,21 @@ section .synopsis{
 section#indexSec .gallery{
 	border:1px solid black;
 	border-radius: 5px;
-	height:100px;
+	height:300px;
 	padding:1em;
 	margin:1em;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.gallery a{
 	text-align: center;
+	height:30px;
+}
+.gallery img{
+	border-radius: 5px;
+	margin-bottom: 5px;
 }
 section a{
 	color:black;

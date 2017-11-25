@@ -6,11 +6,14 @@
 		<link rel="shortcut icon" href="data/Icons/icon.png" />
 		<script src="JS/script.js" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="CSS/style.css" />
-		<style type="text/css">
-			
-		</style>
+		<script type="text/javascript">
+			function chooseImg(){
+				var randNum = Math.floor((Math.random() * 10) + 1);
+				document.getElementById("changeImg").src = "data/plants/plant" + randNum + ".JPG";
+			}
+		</script>
 	</head>
-	<body>
+	<body onload="chooseImg();">
 		<header>
 			<h1>Succulent Collection</h1>
 			<hr />
@@ -29,9 +32,7 @@
 				<a href="HTML/about.html">Learn More</a>
 			</div>
 			<div class="gallery">
-				<p>
-					
-				</p>
+				<img id="changeImg" alt="Gallery Image" height="250" />
 				<a href="HTML/gallery.html">Visit the Gallery</a>
 			</div>
 		</section>
