@@ -53,11 +53,20 @@ section#indexSec .gallery{
 	margin-bottom: 10px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: flex-start;
 }
 .gallery a{
 	text-align: center;
-	height:30px;
+	padding:15px;
+	width:91%;
+	margin:0px;
+	margin-bottom: 10px;
+}
+#mpLink{
+	padding:0px;
+	margin:0px;
+	border:none;
+	background: none;
 }
 .gallery img{
 	border-radius: 5px;
@@ -187,4 +196,10 @@ header hr{
 	display:block;
 	float: right;
 	margin-top:15px;
+}
+#navBttns button{
+	height:100px;
+	width:100px;
+	margin-right: 5px;
+	font-size:70px;
 }
