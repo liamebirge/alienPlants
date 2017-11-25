@@ -145,6 +145,7 @@ header hr{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-right:5px;
 }
 #plantDescription{
 	width:500px;
