@@ -13,3 +13,11 @@ function gotoNew(url){
     var win = window.open(url, '_blank');
     win.focus();
 }
+(function() {
+	var randNum = Math.floor((Math.random() * 16) + 1);
+    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    link.type = 'image/png';
+    link.rel = 'shortcut icon';
+    link.href = '../data/icons/icon' + randNum + ".png";
+    document.getElementsByTagName('head')[0].appendChild(link);
+})();

@@ -161,6 +161,9 @@ header hr{
 	padding:10px;
 	margin-bottom:5px;
 }
+#about{
+	max-width:500px;
+}
 #usefulLinks h3{
 	text-align: center;
 	margin:5px;
