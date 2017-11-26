@@ -1,7 +1,7 @@
 function chooseImg(){
 	var randNum = Math.floor((Math.random() * 10) + 1);
 	document.getElementById("changeImg").src = "data/plants/plant" + randNum + ".JPG";
-	document.getElementById("mpLink").href = "HTML/plantPages/plant" + randNum + ".html";
+	document.getElementById("mpLink").href = "HTML/PlantPages/plant" + randNum + ".html";
 }
 
 function gotoSame(url){
