@@ -2,6 +2,7 @@ body{
 	min-width:450px;
 	display: flex;
 	flex-direction: column;
+	background-color: #C7CCC6;
 }
 header{
 	text-align: center;
@@ -27,9 +28,6 @@ footer{
 	background-color: #7F8070;
 	text-align: center;
 	height:40px;
-}
-body{
-	background-color: #C7CCC6;
 }
 section{
 	width: 100%;
@@ -157,12 +155,21 @@ header hr{
 }
 
 /* About */
-#about, #usefulLinks{
+#about, #usefulLinks, #helpUsOut{
 	border:1px solid black;
 	border-radius: 5px;
 	margin:10px;
 	padding:10px;
 	margin-bottom:5px;
+}
+#helpUsOut a{
+	border:none;
+	background: none;
+	text-decoration: underline;
+}
+#helpUsOut a:hover{
+	text-decoration-color: #463D2E;
+	color:#5F6D60;
 }
 #about{
 	max-width:500px;

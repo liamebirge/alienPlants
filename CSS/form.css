@@ -1,0 +1,36 @@
+header button{
+	margin-top:30px;
+}
+input, textarea, select{
+	background-color: #dfe2de;
+	margin:5px;
+}
+textarea{
+	height:100px;
+	width:250px;
+}
+#helpForm{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+@media screen and (max-width: 680px) {
+	#helpForm {
+		flex-direction: column;
+	}
+}
+.helpInfo fieldset{
+	width:90%;
+	height:230px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#submitBttn input{
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 5px;
+}

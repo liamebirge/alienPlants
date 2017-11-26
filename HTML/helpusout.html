@@ -1,5 +1,63 @@
-<!-- 
-	Help us out.html
-	Help us identify and correct information on our plants
-	All help is greatly appreciated
- -->
+ <!DOCTYPE html>
+ <html>
+ 	<head>
+ 		<title>Help Us Out</title>
+ 		<meta charset="UTF-8" />
+		<meta name="author" content="Liam English-Birge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="../JS/script.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="../CSS/style.css" />
+		<link rel="stylesheet" type="text/css" href="../CSS/form.css" />
+		<style type="text/css">
+			body{
+				background-color: #C7CCC6;
+			}
+		</style>
+ 	</head>
+ 	<body>
+ 		<header>
+ 			<button onclick="gotoSame('about.html')">Back</button>
+ 			<h1>Help Us Out</h1>
+ 			<hr />
+ 		</header>
+ 		<section>
+ 			<div id="helpUsOut">
+ 				<div id="helpText">
+ 					<p>
+ 						Use this form to help us identify and correct information on our plants. All help is greatly appreciated!
+ 					</p>
+ 				</div>
+ 				<form method="post" action="">
+ 					<div id="helpForm">
+	 					<div id="left" class="helpInfo">
+	 						<fieldset>
+	 							<legend>Plant Info</legend>
+		 						<label for="plantNum">Plant #:</label>
+		 						<input type="text" name="plantNum" required="required" />*<br />
+		 						<textarea placeholder="Plant information and source" required="required" name="plantInfo"></textarea>*
+		 					</fieldset>
+		 				</div>
+		 				<div id="right" class="helpInfo">
+		 					<fieldset>
+		 						<legend>User Info</legend>
+		 						<label for="userName">Name:</label><br />
+		 						<input type="text" name="userName" required="required" />*<br />
+		 						<label for="howFind">How did you find this site?:</label><br />
+		 						<input type="text" name="howFind" /><br />
+		 						<label for="recomend">Would you recomend this site to a friend?:</label><br />
+		 						<select name="recomend">
+		 							<option value="yes">Yes</option>
+		 							<option value="no">No</option>
+		 							<option value="maybe">Maybe</option>
+		 						</select>
+		 					</fieldset>
+		 				</div>
+		 			</div>
+		 			<div id="submitBttn">
+	 					<input type="submit" />
+	 				</div>
+ 				</form>
+ 			</div>
+ 		</section>
+ 	</body>
+ </html>
