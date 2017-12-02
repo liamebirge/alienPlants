@@ -25,7 +25,7 @@
 			    slideIndex++;
 			    if (slideIndex > slides.length) {slideIndex = 1} //go back to first slide at end of slides
 			    slides[slideIndex-1].style.display = "block"; 
-			    setTimeout(showSlides, 2500); // Change image every 2 seconds
+			    setTimeout(showSlides, 3000); // Change image every 3 seconds
 			}
 		</script>
 		<style type="text/css">
@@ -40,11 +40,11 @@
 			  animation-duration: 1.5s;
 			}
 			@-webkit-keyframes fade {
-			  from {opacity: .4} 
-			  to {opacity: 1}
+			  from {opacity: 0} 
+			  to {opacity: 1;}
 			}
 			@keyframes fade {
-			  from {opacity: .4} 
+			  from {opacity: 0} 
 			  to {opacity: 1}
 			}
 		</style>
