@@ -192,6 +192,7 @@ big{
 	animation: fade 3s;
 }
 @keyframes fade {
+	/* https://css-tricks.com/snippets/css/keyframe-animation-syntax/ */
 	0%{
 		opacity: 0;
 	}
