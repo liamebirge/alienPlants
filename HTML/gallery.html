@@ -14,12 +14,42 @@
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'UA-110498904-1');
+
+			var slideIndex = 0;
+			function showSlides() {
+			    var i;
+			    var slides = document.getElementsByClassName("mySlides");
+			    for (i = 0; i < slides.length; i++) {
+			        slides[i].style.display = "none"; 
+			    }
+			    slideIndex++;
+			    if (slideIndex > slides.length) {slideIndex = 1} //go back to first slide at end of slides
+			    slides[slideIndex-1].style.display = "block"; 
+			    setTimeout(showSlides, 2500); // Change image every 2 seconds
+			}
 		</script>
 		<style type="text/css">
-			
+			.mySlides {
+			    display: none;
+			}
+			/* Fading animation */
+			.fade {
+			  -webkit-animation-name: fade;
+			  -webkit-animation-duration: 1.5s;
+			  animation-name: fade;
+			  animation-duration: 1.5s;
+			}
+			@-webkit-keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
+			@keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
 		</style>
 	</head>
-	<body>
+	<body onload="showSlides();">
 		<header>
 			<h1>Gallery</h1>
 			<hr />
@@ -32,6 +62,34 @@
 		</header>
 		<section>
 			<div id="gallery">
+				<a href="PlantPages/youngPlants.html" class="galContainer">
+					<div class="mySlides fade">
+						<img class="galleryImg" src="../data/plants/youngPlant1.JPG"" alt="Young Plants 1">
+						<div id="slideshow" class="galMiddle">
+							<h3>Young Plants</h3>
+						</div>
+					</div>
+
+					<div class="mySlides fade">
+						<img class="galleryImg" src="../data/plants/youngPlant2.JPG" alt="Young Plants 2">
+						<div id="slideshow" class="galMiddle">
+							<h3>Young Plants</h3>
+						</div>
+					</div>
+
+					<div class="mySlides fade">
+						<img class="galleryImg" src="../data/plants/youngPlant3.JPG" alt="Young Plants 3">
+						<div id="slideshow" class="galMiddle">
+							<h3>Young Plants</h3>
+						</div>
+					</div>
+					<div class="mySlides fade">
+						<img class="galleryImg" src="../data/plants/youngPlant4.JPG" alt="Young Plants 4">
+						<div id="slideshow" class="galMiddle">
+							<h3>Young Plants</h3>
+						</div>
+					</div>
+				</a>
 				<a href="PlantPages/plant1.html" class="galContainer">
 					<img class="galleryImg" src="../data/plants/plant1.JPG" alt="Plant1" />
 					<div class="galMiddle">
@@ -59,65 +117,41 @@
 				<a href="PlantPages/plant5.html" class="galContainer">
 					<img class="galleryImg" src="../data/plants/plant5.JPG" alt="Plant5" />
 					<div class="galMiddle">
-						<h3>Plant #5</h3>
+						<h3>Plant #7</h3>
 					</div>
 				</a>
 				<a href="PlantPages/plant6.html" class="galContainer">
 					<img class="galleryImg" src="../data/plants/plant6.JPG" alt="Plant6" />
 					<div class="galMiddle">
-						<h3>Plant #6</h3>
+						<h3>Plant #8</h3>
 					</div>
 				</a>
 				<a href="PlantPages/plant7.html" class="galContainer">
 					<img class="galleryImg" src="../data/plants/plant7.JPG" alt="Plant7" />
 					<div class="galMiddle">
-						<h3>Plant #7</h3>
+						<h3>Plant #9</h3>
 					</div>
 				</a>
 				<a href="PlantPages/plant8.html" class="galContainer">
 					<img class="galleryImg" src="../data/plants/plant8.JPG" alt="Plant8" />
 					<div class="galMiddle">
-						<h3>Plant #8</h3>
+						<h3>Plant #11</h3>
 					</div>
 				</a>
 				<a href="PlantPages/plant9.html" class="galContainer">
 					<img class="galleryImg" src="../data/plants/plant9.JPG" alt="Plant9" />
 					<div class="galMiddle">
-						<h3>Plant #9</h3>
+						<h3>Plant #13</h3>
 					</div>
 				</a>
 				<a href="PlantPages/plant10.html" class="galContainer">
 					<img class="galleryImg" src="../data/plants/plant10.JPG" alt="Plant10" />
 					<div class="galMiddle">
-						<h3>Plant #10</h3>
+						<h3>Plant #14</h3>
 					</div>
 				</a>
 				<a href="PlantPages/plant11.html" class="galContainer">
 					<img class="galleryImg" src="../data/plants/plant11.JPG" alt="Plant11" />
-					<div class="galMiddle">
-						<h3>Plant #11</h3>
-					</div>
-				</a>
-				<a href="PlantPages/plant12.html" class="galContainer">
-					<img class="galleryImg" src="../data/plants/plant12.JPG" alt="Plant12" />
-					<div class="galMiddle">
-						<h3>Plant #12</h3>
-					</div>
-				</a>
-				<a href="PlantPages/plant13.html" class="galContainer">
-					<img class="galleryImg" src="../data/plants/plant13.JPG" alt="Plant13" />
-					<div class="galMiddle">
-						<h3>Plant #13</h3>
-					</div>
-				</a>
-				<a href="PlantPages/plant14.html" class="galContainer">
-					<img class="galleryImg" src="../data/plants/plant14.JPG" alt="Plant14" />
-					<div class="galMiddle">
-						<h3>Plant #14</h3>
-					</div>
-				</a>
-				<a href="PlantPages/plant15.html" class="galContainer">
-					<img class="galleryImg" src="../data/plants/plant15.JPG" alt="Plant15" />
 					<div class="galMiddle">
 						<h3>Plant #15</h3>
 					</div>

@@ -148,6 +148,7 @@ header hr{
 	opacity: 1;
 }
 .galMiddle h3 {
+	text-align: center;
 	background-color: #77AD9F;
 	color: white;
 	font-size: 16px;
