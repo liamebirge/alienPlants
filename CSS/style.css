@@ -6,7 +6,7 @@ body{
 }
 header{
 	text-align: center;
-	height:90px;
+	height:100px;
 }
 header button{
 	display: block;
@@ -93,8 +93,10 @@ header .nav{
 	margin-right:auto;
 	margin-left:auto;
 }
-header hr{
-	margin:0px;
+hr{
+	margin-top:0px;
+	margin-bottom: 0px;
+	width:90%;
 }
 .nav a{
 	min-width: 75px;
