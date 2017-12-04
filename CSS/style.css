@@ -255,3 +255,9 @@ big{
 	margin-right: 5px;
 	font-size:70px;
 }
+.sideList{
+	margin-left:-15px;
+}
+.sideList li{
+	margin-top:5px;
+}
