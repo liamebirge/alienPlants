@@ -213,14 +213,16 @@ big{
 	justify-content: space-around;
 }
 #sideGallery{
-	width:840px;
+	width:870px;
 	height:auto;
+	max-height:530px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-right:5px;
 	overflow: scroll;
+	align-self: flex-start;
 }
 #plantDescription{
 	width:500px;
