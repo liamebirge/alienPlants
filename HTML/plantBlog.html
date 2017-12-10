@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alien Plant Blog</title>
+
+		<meta charset="UTF-8">
+		<meta name="author" content="Liam English-Birge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="../JS/script.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="../CSS/style.css" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110498904-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-110498904-1');
+		</script>
+		<style type="text/css">
+			section#blogSec{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+			div#blog{
+				border:1px solid black;
+				border-radius: 5px;
+				width:75%;
+				min-height:700px;
+				margin:2px;
+			}
+			div#aside{
+				border:1px solid black;
+				border-radius: 10px;
+				width:300px;
+				min-height:400px;
+				align-self:flex-start;
+				margin:2px;
+			}
+			#aside h3{
+				text-align: center;
+			}
+			@media screen and (max-width: 800px) {
+			    section#blogSec {
+			        flex-direction: column-reverse;
+			    }
+			    div#aside{
+			    	width:99%;
+			    }
+			    div#blog{
+			    	width:99%
+			    }
+			}
+		</style>
+	</head>
+	<body onload="showSlides();">
+		<header>
+			<h1>Alien Plant Blog</h1>
+			<hr />
+			<div class="nav">
+				<a href="../index.html">Home</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="plantBlog.html"><u>Blog</u></a>
+				<a href="about.html">About</a>
+			</div>
+			<hr />
+		</header>
+		<section id="blogSec">
+			<div id="blog">
+				
+			</div>
+			<div id="aside">
+				<h3>Blog Sections</h3>
+				<hr />
+			</div>
+		</section>
+		<footer>
+			Coded and maintained by Liam English-Birge
+		</footer>
+	</body>
+</html>
+</html>

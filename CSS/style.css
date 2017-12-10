@@ -220,6 +220,7 @@ big{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-right:5px;
+	overflow: scroll;
 }
 #plantDescription{
 	width:500px;
