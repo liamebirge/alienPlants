@@ -195,15 +195,9 @@ big{
 }
 @keyframes fade {
 	/* https://css-tricks.com/snippets/css/keyframe-animation-syntax/ */
-	0%{
-		opacity: 0;
-	}
-	25%, 75%{
-		opacity: 1;
-	}
-	100%{
-		opacity: 0;
-	}
+	0%{opacity: 0;}
+	25%, 75%{opacity: 1;}
+	100%{opacity: 0;}
 }
 
 /* Plant Pages */
