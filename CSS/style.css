@@ -16,9 +16,6 @@ header button{
 	background-color: #C7CCC6;
 	border-radius: 10px;
 }
-section{
-	min-height: 600px;
-}
 footer{
 	position: relative;
 	right: 0;
@@ -30,6 +27,7 @@ footer{
 	height:40px;
 }
 section{
+	min-height: 600px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -217,7 +215,7 @@ big{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-right:5px;
-	overflow: scroll;
+	overflow-y: scroll;
 	align-self: flex-start;
 }
 #plantDescription{
@@ -242,6 +240,7 @@ big{
 	#sideGallery img{
 		width:99%;
 		height:auto;
+		margin:3px;
 	}
 }
 #sideGallery a{
@@ -268,11 +267,13 @@ big{
 .sideList li{
 	margin-top:5px;
 }
+
 /* Blog Page */
 section#blogSec{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	scroll-behavior: smooth;
 }
 div#blog{
 	border:1px solid black;
