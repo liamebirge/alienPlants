@@ -17,10 +17,27 @@
 			gtag('config', 'UA-110498904-1');
 		</script>
 		<style type="text/css">
-			
+			#blogList{
+				list-style-type: disc;
+			}
+			#blogList li{
+				padding:5px;
+			}
+			div#blog{
+				background: #afb7ae;
+			}
+			.post .postHeader{
+				text-align: center;
+			}
+			.posts, .plantUpdates, .newPlants{
+				border:2px solid black;
+				border-left: none;
+				border-right:none;
+				margin-bottom:10px;
+			}
 		</style>
 	</head>
-	<body onload="showSlides();">
+	<body>
 		<header>
 			<h1>Alien Plant Blog</h1>
 			<hr />
@@ -34,11 +51,40 @@
 		</header>
 		<section id="blogSec">
 			<div id="blog">
-				
+				<div id="posts">
+					<h2><u>Posts:</u></h2>
+					<div class="post" id="post1">
+						<div class="postHeader">
+							<h3>A blog??</h3>
+							<hr />
+						</div>
+						<div class="postSection">
+							The purpose of this "blog" is to keep a log of the care of these plants, log plant repotting, and taking note of any changes that occur to chronicle the care of these really unique plants. Updates will be posted as reqularly as needed
+						</div>
+					</div>
+				</div>
+				<div id="plantUpdates">
+					<h2><u>Plant Updates:</u></h2>
+
+				</div>
+				<div id="newPlants">
+					<h2><u>New Plants:</u></h2>
+
+				</div>
 			</div>
 			<div id="aside">
 				<h3>Blog Sections</h3>
 				<hr />
+				<ul id="blogList">
+					<li>
+						<a href="#posts">Posts</a>
+						<ul class="sideList">
+							<li><a href="#post1">Post 1</a></li>
+						</ul>
+					</li>
+					<li><a href="#plantUpdates">Plant Health and Updates</a></li>
+					<li><a href="#newPlants">New Plants</a></li>
+				</ul>
 			</div>
 		</section>
 		<footer>
