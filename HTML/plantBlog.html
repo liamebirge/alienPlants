@@ -25,6 +25,13 @@
 			}
 			div#blog{
 				background: #afb7ae;
+				padding: 10px;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				overflow-y: scroll;
+				scroll-behavior: smooth;
 			}
 			.post .postHeader{
 				text-align: center;
@@ -34,6 +41,11 @@
 				border-left: none;
 				border-right:none;
 				margin-bottom:10px;
+			}
+			#updateSection{
+				max-width: 600px;
+				margin-right: auto;
+				margin-left:auto;
 			}
 		</style>
 	</head>
@@ -54,28 +66,40 @@
 				<div id="posts">
 					<h2><u>Posts:</u></h2>
 					<div class="post" id="post1">
+						<hr />
 						<div class="postHeader">
 							<h3>A blog??</h3>
-							<hr />
 						</div>
 						<div class="postSection">
-							The purpose of this "blog" is to keep a log of the care of these plants, log plant repotting, and taking note of any changes that occur to chronicle the care of these really unique plants. Updates will be posted as reqularly as needed, whenever something noteworthy occurs.
+							The purpose of this "blog" is to keep a log of the care of these plants, log plant repotting, and taking note of any changes that occur to chronicle the care of these really unique plants. Updates will be posted as reqularly as needed, whenever anything noteworthy occurs.
 						</div>
 					</div>
 				</div>
 				<div id="plantUpdates">
+					<hr />
 					<h2><u>Plant Updates:</u></h2>
+					<hr />
 					<div class="plantUpdate" id="update1">
 						<div id="updateHeader">
-							<h3>Up until now</h3>
+							<h3>12/10/17 So Far:</h3>
 						</div>
 						<div id="updateSection">
-							All 16 plants are kept indoors at 20-25&deg;C during the daytime and 15-20&deg;C during the night. All plants have health and soil inspected every day. Box 1 contains plants 4, 5, 9, 10, 12, and Young Plant 2, it is lit by 1 350 lumen led lamp
+							All 16 plants are kept indoors at 20-25&deg;C during the daytime and 15-20&deg;C during the night. All plants have health and soil inspected every day. Planter 1 contains plants 5, 9, 10, 12, and Young Plant 2, it is lit by 1 350 lumen 40w led lamp. Planter 2 contains plants 1, 2, 3, 4, 8, a Zwartkop trimming, and 2 sproutlings from plant 5, it is lit by a 800 lumen 60w led light and a 18" florescent tube. All other plants are kept in seperate pots and are lit by another 88 lumen 60w led.
+						</div>
+					</div>
+					<div class="plantUpdate" id="update2">
+						<div id="updateHeader">
+							<h3>12/11/17 Plant update and repotting:</h3>
+						</div>
+						<div id="updateSection">
+							Young Plant 7's mother plant was transfered to a larger pot with new soil and watered with green water bottle. All plants and their soil was checked for any changes and/or any problems. Zwartkop mother plant (Plant 4) shed lower leaves.
 						</div>
 					</div>
 				</div>
 				<div id="newPlants">
+					<hr />
 					<h2><u>New Plants:</u></h2>
+					<hr />
 
 				</div>
 			</div>
@@ -89,7 +113,13 @@
 							<li><a href="#post1">Post 1</a></li>
 						</ul>
 					</li>
-					<li><a href="#plantUpdates">Plant Health and Updates</a></li>
+					<li>
+						<a href="#plantUpdates">Plant Health and Updates</a>
+						<ul class="sideList">
+							<li><a href="#update1">Update 1: 12/10/17</a></li>
+							<li><a href="#update2">Update 2: 12/11/17</a></li>
+						</ul>
+					</li>
 					<li><a href="#newPlants">New Plants</a></li>
 				</ul>
 			</div>
