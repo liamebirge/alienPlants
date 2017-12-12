@@ -47,6 +47,25 @@
 				margin-right: auto;
 				margin-left:auto;
 			}
+			#newPlantsGallery{
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-start;
+				padding:10px;
+			}
+			#newPlantsGallery .newPlantLink{
+				height:200px;
+				width:200px;
+				border:5px groove #C7CCC6;
+			}
+			#newPlantsGallery .newPlantImg{
+				height:200px;
+				width:200px;
+				border:none;
+			}
+			#newPlantsGallery .newPlantLink:hover{
+				border:5px ridge #006624;
+			}
 		</style>
 	</head>
 	<body>
@@ -100,7 +119,9 @@
 					<hr />
 					<h2><u>New Plants:</u></h2>
 					<hr />
-
+					<div id="newPlantsGallery">
+						<a href="" class="newPlantLink" target="_self"><img src="" class="newPlantImg" alt="New Plant 1" /></a>
+					</div>
 				</div>
 			</div>
 			<div id="aside">
