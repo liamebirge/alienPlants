@@ -112,6 +112,25 @@ hr{
 .nav a:hover{
 	background-color: #a9aa99;
 }
+#plantCount{
+	width:200px;
+	border:1px solid black;
+	border-radius: 6px;
+	padding:5px;
+	margin:2px;
+	margin-bottom:10px;
+}
+#plantCount h5{
+	text-align: center;
+	text-decoration: underline;
+}
+#plantCount h1{
+	font-size: 80px;
+	padding:0px;
+	margin:0px;
+	text-align: center;
+}
+
 /* Gallery */
 #gallery{
 	margin-top:30px;
