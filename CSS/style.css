@@ -114,11 +114,13 @@ hr{
 }
 #plantCount{
 	width:200px;
+	height:150px;
 	border:1px solid black;
 	border-radius: 6px;
 	padding:5px;
 	margin:2px;
 	margin-bottom:10px;
+	align-self: center;
 }
 #plantCount h5{
 	text-align: center;
@@ -128,7 +130,18 @@ hr{
 	font-size: 80px;
 	padding:0px;
 	margin:0px;
+	margin-top:-10px;
 	text-align: center;
+}
+.group{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+@media screen and (max-width: 600px) {
+	#indexSec div.group {
+		flex-direction: column;
+	}
 }
 
 /* Gallery */
@@ -229,7 +242,7 @@ big{
 	width:870px;
 	min-width:450px;
 	height:auto;
-	max-height:530px;
+	max-height:560px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
