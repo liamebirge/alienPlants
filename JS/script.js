@@ -23,3 +23,23 @@ function gotoNew(url){
     //https://raw.githubusercontent.com/liamebirge/alienPlants/master/data/icons/icon1.png
     document.getElementsByTagName('head')[0].appendChild(link);
 })();
+//Chooses current month and year to display apropriate calendar
+function calLink(){
+    var date = new Date();
+    var month = new Array();
+    month[0] = "January";
+    month[1] = "February";
+    month[2] = "March";
+    month[3] = "April";
+    month[4] = "May";
+    month[5] = "June";
+    month[6] = "July";
+    month[7] = "August";
+    month[8] = "September";
+    month[9] = "October";
+    month[10] = "November";
+    month[11] = "December";
+    var cMonth = month[date.getMonth()];
+    var cYear = date.getFullYear();
+    gotoNew("Calendar/" + cMonth + "-" + cYear + ".html");
+}
