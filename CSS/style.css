@@ -174,7 +174,7 @@ hr{
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 }
-.galContainer:hover .galleryImg {
+.galContainer:hover .galleryImg, .galContainer:hover .newPlantImg {
 	opacity: 0.3;
 }
 .galContainer:hover .galMiddle {
@@ -385,13 +385,12 @@ div#blog{
 	border-radius: 3px;
 }
 #newPlantsGallery .newPlantImg{
-	height:200px;
+	height:210px;
+	padding:none;
+	margin:none;
 	width:auto;
 	border:none;
 }
 #newPlantsGallery .newPlantLink:hover{
 	border:5px ridge #006A64;
-}
-.galContainer:hover .newPlantImg {
-	opacity: 0.3;
 }
