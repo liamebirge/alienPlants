@@ -1,5 +1,5 @@
 function chooseImg(){
-	var randNum = Math.floor((Math.random() * 10) + 1);
+	var randNum = Math.floor((Math.random() * 15) + 1);
 	document.getElementById("changeImg").src = "data/plants/plant" + randNum + ".JPG";
 	document.getElementById("mpLink").href = "HTML/PlantPages/plant" + randNum + ".html";
 }
