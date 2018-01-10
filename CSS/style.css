@@ -369,11 +369,14 @@ div#blog{
 	margin-left:auto;
 }
 #newPlantsGallery{
+	margin-top:10px;
+	width:100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	padding:10px;
 	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left:auto;
+	margin-right: auto;
 }
 #newPlantsGallery .newPlantLink{
 	height:200px;
@@ -388,4 +391,7 @@ div#blog{
 }
 #newPlantsGallery .newPlantLink:hover{
 	border:5px ridge #006A64;
+}
+.galContainer:hover .newPlantImg {
+	opacity: 0.3;
 }
