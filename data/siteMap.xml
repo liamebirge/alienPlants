@@ -278,12 +278,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/newPlant1.html</loc>
-		<lastmod>2018-01-09</lastmod>
-		<changefreq>Yearly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/youngPlants.html</loc>
 		<lastmod>2018-01-09</lastmod>
 		<changefreq>Yearly</changefreq>
@@ -294,65 +288,175 @@
 		<lastmod>2018-01-09</lastmod>
 		<changefreq>Yearly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant1/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Young Plant 1</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant1/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Young Plant 1</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant1/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Young Plant 1</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant1/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Young Plant 1</image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/youngPlant2.html</loc>
 		<lastmod>2017-11-08</lastmod>
 		<changefreq>Yearly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant2/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Young Plant 2</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant2/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Young Plant 2</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant2/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Young Plant 2</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant2/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Young Plant 2</image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/youngPlant3.html</loc>
 		<lastmod>2017-11-08</lastmod>
 		<changefreq>Yearly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant3/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Young Plant 3</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant3/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Young Plant 3</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant3/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Young Plant 3</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant3/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Young Plant 3</image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/youngPlant4.html</loc>
 		<lastmod>2017-11-08</lastmod>
 		<changefreq>Yearly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant4/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Young Plant 4</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant4/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Young Plant 4</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant4/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Young Plant 4</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/youngPlant4/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Young Plant 4</image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/newPlant1.html</loc>
 		<lastmod>2018-01-08</lastmod>
 		<changefreq>Monthly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant1/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Astrophytum capricorne</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant1/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Astrophytum capricorne</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant1/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Astrophytum capricorne</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant1/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Astrophytum capricorne</image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/newPlant2.html</loc>
 		<lastmod>2018-01-08</lastmod>
 		<changefreq>Monthly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant2/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Agave</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant2/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Agave</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant2/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Agave</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant2/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Agave</image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/newPlant3.html</loc>
 		<lastmod>2018-01-08</lastmod>
 		<changefreq>Monthly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant3/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Hylocereus triangularis</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant3/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Hylocereus triangularis</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant3/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Hylocereus triangularis</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant3/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Hylocereus triangularis</image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/newPlant4.html</loc>
 		<lastmod>2018-01-08</lastmod>
 		<changefreq>Monthly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant4/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Tricocereus pachanoi</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant4/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Tricocereus pachanoi</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant4/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Tricocereus pachanoi</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant4/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Tricocereus pachanoi</image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/newPlant5.html</loc>
 		<lastmod>2018-01-08</lastmod>
 		<changefreq>Monthly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant5/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Opuntia engelmanii</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant5/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Opuntia engelmanii</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant5/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Opuntia engelmanii</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant5/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Opuntia engelmanii</image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/newPlant6.html</loc>
 		<lastmod>2018-01-08</lastmod>
 		<changefreq>Monthly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant6/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Echinocactus grusonii</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant6/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Echinocactus grusonii</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant6/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Echinocactus grusonii</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant6/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Echinocactus grusonii</image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://liamebirge.github.io/alienPlants/HTML/PlantPages/newPlant7.html</loc>
 		<lastmod>2018-01-08</lastmod>
 		<changefreq>Monthly</changefreq>
 		<priority>0.5</priority>
+		<image:image>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant7/shot1.JPG</image:loc>
+			<image:caption>Shot 1 of Opuntia Violacea</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant7/shot2.JPG</image:loc>
+			<image:caption>Shot 2 of Opuntia Violacea</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant7/shot3.JPG</image:loc>
+			<image:caption>Shot 3 of Opuntia Violacea</image:caption>
+			<image:loc>https://liamebirge.github.io/alienPlants/data/plants/newPlant7/shot4.JPG</image:loc>
+			<image:caption>Shot 4 of Opuntia Violacea</image:caption>
+		</image:image>
 	</url>
 </urlset>
