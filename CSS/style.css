@@ -319,6 +319,7 @@ div#aside{
 	border:1px solid black;
 	border-radius: 10px;
 	width:300px;
+	height:auto;
 	min-height:400px;
 	align-self:flex-start;
 	margin:2px;
@@ -332,6 +333,7 @@ div#aside{
     }
     div#aside{
 	   	width:99%;
+	   	height:300px;
     }
     div#blog{
     	width:99%
