@@ -113,13 +113,17 @@ hr{
 	background-color: #a9aa99;
 }
 #plantCount{
-	width:200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#individual, #species{
+	width:175px;
 	height:150px;
 	border:1px solid black;
 	border-radius: 6px;
 	padding:5px;
 	margin:2px;
-	margin-bottom:10px;
 	align-self: center;
 }
 #plantCount h5{
